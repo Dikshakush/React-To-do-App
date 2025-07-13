@@ -1,10 +1,10 @@
 // App.jsx
 import { useState } from 'react';
 import { Container } from 'react-bootstrap';
-import Header from './components/Header';
-import TodoForm from './components/TodoForm';
-import FilterButtons from './components/FilterButtons';
-import TodoList from './components/TodoList';
+import Header from './Components/Header';
+import TodoForm from './Components/TodoForm';
+import FilterButtons from './Components/FilterButtons';
+import TodoList from './Components/TodoList';
 
 const App = () => {
   const [todo, setTodo] = useState('');
